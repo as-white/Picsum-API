@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" ref="text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">  
+    <title>Placeholder Generator</title>
+</head>
+<body onload="onLoad()">
+    
+    <h1 class="display-6">Get a Random Placeholder!</h1>
+    <p class="lead">Use this page to generate a random placeholder!<br>(400x200, 400x200 <i>blurred</i>, and 800x400)</h4>
+    <br>
+    <div class="placeholders1">
+        <div class="row">            
+        <div class="col md-6">
+            <p>400x200</p>
+    <img src="" class="random-image1" style="text-align: center;"><br>
+    <button id="random1" onclick="placeholderOne()">get a placeholder</button>
+</div>
+    <div class="col md-6" style="text-align: center;">
+        <div class="col text-center">
+            <p>400x200 (blurred)</p>
+    <img src="" class="random-image2"><br>
+    <button id="random2" onclick="placeholderTwo()">get a blurred placeholder</button>
+    </div>
+    </div>
+    </div>
+</div>
+
+    <div class="placeholders2">
+        <div class="col md-12">
+            <div class="col text-center">
+                <p>800x400</p>
+    <img src="" class="random-image3"><br>
+    <button id="random3" onclick="placeholderThree()">get a larger placeholder</button>
+    </div>
+    </div>
+    </div>
+
+    <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.2.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.2.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+</html>
